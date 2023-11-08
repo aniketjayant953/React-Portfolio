@@ -95,6 +95,37 @@
 
 /* About Section */
 
+/* Example media query for phones */
+@media only screen and (max-width: 800px) {
+  .section-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-pic {
+    max-width: 100%;
+    height: auto;
+    padding: 10px;
+    
+  }
+
+  .about-details-container {
+    padding: 20px;
+    margin-top: 10px;
+  }
+  
+  .icon {
+    width: 50px;
+    height: 50px;
+    width: auto;
+  }
+  
+  .text-container {
+    text-align: center;
+  }
+}
+
+
 #about {
   position: relative;
 }
@@ -136,7 +167,7 @@
   display: flex;
 }
 
-.details-container,
+
 .section-container img {
   width: auto;
 }
@@ -148,6 +179,7 @@
 }
 
 .details-container {
+  width: auto;
   padding: 1.5rem;
   flex: 1;
   background: white;
@@ -166,6 +198,7 @@
 .details-container h3 {
   color: black;
 }
+
 
 
 
@@ -627,6 +660,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: -4;
 }
 
+/* Media query for phones */
+@media only screen and (max-width: 767px) {
+  .upcoming-tab p {
+    text-align: center !important;
+    font-size: 60px !important; 
+    padding: 10px !important; 
+  }
+}
+
 /************ Contact ************/
 .contact {
   background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
@@ -789,3 +831,45 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 200px;
   height: auto;
 }
+
+/* Media query for phones */
+@media (max-width: 767px) {
+  .footer-logo {
+    display: block;
+    margin: 0 auto 10px; 
+  }
+
+  .social-icon {
+    margin-top: 10px; 
+  }
+}
+
+/* Media query for phones */
+@media only screen and (max-width: 767px) {
+  .newsletter-bx {
+    /* Add styles for the newsletter box on phones */
+    padding: 30px;
+  }
+
+  .newsletter-bx h3 {
+    font-size: 15px; /* Adjust the font size for the heading on phones */
+    text-align: center;
+  }
+
+  .new-email-bx {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .new-email-bx input {
+    width: 100%;
+    margin-bottom: 10px; /* Adjust the margin for the input field on phones */
+    text-align: center; 
+  }
+
+  .new-email-bx button {
+    width: 100%;
+  }
+}
+
+

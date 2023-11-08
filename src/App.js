@@ -9,6 +9,7 @@ import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
 import { About } from "./components/About";
 
+
 const App = () => {
   useEffect(() => {
     fetch("/api")
