@@ -1,4 +1,5 @@
 import './App.css';
+import './swiper-bundle.min.css'
 import React, { useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { NavBar } from "./components/NavBar";
@@ -8,6 +9,10 @@ import { Projects } from "./components/Projects";
 import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
 import { About } from "./components/About";
+import { Slider } from './components/Slider';
+
+
+
 
 
 const App = () => {
@@ -23,6 +28,7 @@ const App = () => {
       <About />
       <Skills />
       <Projects />
+      <Slider />
       <Contact />
       <Footer />
     </div>
@@ -30,3 +36,4 @@ const App = () => {
 }
 
 export default App;
+
