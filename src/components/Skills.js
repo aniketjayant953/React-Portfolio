@@ -1,6 +1,6 @@
-import meter1 from "../assets/img/meter1.svg";
-import meter2 from "../assets/img/meter2.svg";
-import meter3 from "../assets/img/meter3.svg";
+import meter3 from "../assets/img/meter1.svg";
+import meter1 from "../assets/img/meter2.svg";
+import meter2 from "../assets/img/meter3.svg";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import colorSharp from "../assets/img/color-sharp.png"
@@ -36,11 +36,11 @@ export const Skills = () => {
                         <p>In the realm of data science, we understand that skills form the pillars of success. With a robust repertoire of expertise in statistical analysis, machine learning, data visualization, and programming languages, I am well-equipped to tackle complex data challenges and drive innovative solutions.</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
-                                <img src={meter1} alt="" />
+                                <img src={meter2} alt="" />
                                 <h5>Python</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="" />
+                                <img src={meter3} alt="" />
                                 <h5>SQL</h5>
                             </div>
                             <div className="item">
@@ -52,27 +52,27 @@ export const Skills = () => {
                                 <h5>Deep Learning</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="" />
+                                <img src={meter3} alt="" />
                                 <h5>Power Bi</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="" />
+                                <img src={meter2} alt="" />
                                 <h5>Tableau</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="" />
+                                <img src={meter3} alt="" />
                                 <h5>Numpy & Pandas</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="" />
+                                <img src={meter3} alt="" />
                                 <h5>Seaborn & Plotly</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="" />
+                                <img src={meter2} alt="" />
                                 <h5>NLP</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="" />
+                                <img src={meter2} alt="" />
                                 <h5>Computer Vision</h5>
                             </div>
                             <div className="item">
@@ -80,7 +80,7 @@ export const Skills = () => {
                                 <h5>Flask & HTML</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="" />
+                                <img src={meter3} alt="" />
                                 <h5>Advanced Excel</h5>
                             </div>
                         </Carousel>
