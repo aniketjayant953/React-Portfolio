@@ -67,7 +67,7 @@ export const Banner = () => {
                 <h1><span className="txt-rotate" dataPeriod="1000" ><span className="wrap">' {text} '</span></span></h1>
                   <p>Welcome to my data-driven world! As a dedicated data analyst and scientist, I transform intricate data into actionable insights. Join me in unraveling the power of information for informed decision-making and impactful change. Let's navigate the depths of data together and unlock its potential for your success</p>
                   <div class='button-wrap'>
-                  <button ><a href="#connect">Let’s Connect <ArrowRightCircle size={25} /></a></button>
+                  <button ><a href="#connect">HIRE ME<ArrowRightCircle size={25} /></a></button>
                   <button onClick={openPdf}  className="button-86" role="button">Download CV</button>
                   </div>
                   
