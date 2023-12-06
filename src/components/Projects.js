@@ -39,7 +39,7 @@ export const Projects = () => {
         },
         {
             title:"Covid-19",
-            description: "Visualizing Pandamecic Progression In Tableau",
+            description: "Visualizing Pandemic Progression In Tableau",
             imgUrl: ProjImg13,
             link:"https://medium.com/@aniketjayant953/covid-19-tale-tableaus-visual-narrative-62c4ff90934d"
         },
