@@ -16,6 +16,8 @@ import ProjImg12 from "../assets/img/quora.png"
 import ProjImg13 from "../assets/img/covid-19.gif"
 import ProjImg14 from "../assets/img/patient.gif"
 import ProjImg15 from "../assets/img/spotify.gif"
+import ProjImg16 from "../assets/img/Fashion.gif"
+import ProjImg17 from "../assets/img/bollytwin.gif"
 import CertImg1 from "../assets/img/sql.jpg"
 import CertImg2 from "../assets/img/python-programming.jpg"
 import CertImg3 from "../assets/img/pandas.jpg"
@@ -90,6 +92,18 @@ export const Projects = () => {
     ]
     const projects2 = [
         {
+            title:"Fashion Recommender System",
+            description: "AI-Powered Fashion Image Recommendations for Users",
+            imgUrl: ProjImg16,
+            link:"https://medium.com/@aniketjayant953/enhancing-shopping-experiences-image-based-fashion-recommendations-856f3c919193"
+        },
+        {
+            title:"BollyTwin Finder",
+            description: "Find Your Bollywood Lookalike with AI-Powered Recognition.",
+            imgUrl: ProjImg17,
+            link:"https://medium.com/@aniketjayant953/bollytwin-discover-your-bollywood-doppelgänger-bffff0ec5791"
+        },
+        {
             title:"Quora Question Key Pairs",
             description: "Quora question similarity analysis using NLP.",
             imgUrl: ProjImg12,
@@ -125,6 +139,7 @@ export const Projects = () => {
             imgUrl: ProjImg11,
             link:"https://medium.com/@aniketjayant953/unleashing-yolov5-real-time-dog-detection-in-videos-0ebe2c1f9607"
         },
+      
     ]
 
     const projects3 = [
