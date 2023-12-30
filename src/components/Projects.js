@@ -18,6 +18,7 @@ import ProjImg14 from "../assets/img/patient.gif"
 import ProjImg15 from "../assets/img/spotify.gif"
 import ProjImg16 from "../assets/img/Fashion.gif"
 import ProjImg17 from "../assets/img/bollytwin.gif"
+import ProjImg18 from "../assets/img/chatbot.png"
 import CertImg1 from "../assets/img/sql.jpg"
 import CertImg2 from "../assets/img/python-programming.jpg"
 import CertImg3 from "../assets/img/pandas.jpg"
@@ -120,6 +121,12 @@ export const Projects = () => {
             description: "Interactive Hand Gesture AI Game",
             imgUrl: ProjImg8,
             link:"https://medium.com/@aniketjayant953/computer-vision-gaming-rock-paper-scissors-ai-cdc1584d9c4d"
+        },
+        {
+            title:"Chatbot",
+            description: "Chatbot integrating currency conversion using DialogFlow",
+            imgUrl: ProjImg18,
+            link:"https://medium.com/@aniketjayant953/chatbots-buddy-googles-dialogflow-guide-e9cb57db4222"
         },
         {
             title:"Movie Recommender",
