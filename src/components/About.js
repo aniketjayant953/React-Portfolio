@@ -1,4 +1,4 @@
-import aboutImg from "../assets/img/about_pic.JPG";
+import aboutImg from "../assets/img/self.JPG";
 import expImg from "../assets/img/experience.png";
 import eduImg from "../assets/img/education.png";
 
