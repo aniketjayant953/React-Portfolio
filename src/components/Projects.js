@@ -24,6 +24,7 @@ import CertImg2 from "../assets/img/python-programming.jpg"
 import CertImg3 from "../assets/img/pandas.jpg"
 import CertImg4 from "../assets/img/machine-learning.jpg"
 import CertImg5 from "../assets/img/stats.jpg"
+import CertImg6 from "../assets/img/SPPU.jpg"
 
 
 import 'animate.css';
@@ -174,6 +175,11 @@ export const Projects = () => {
             title:"Statistics",
             description: "ITVedant Certificate",
             imgUrl: CertImg5
+        },
+        {
+            title:"Graduation",
+            description: "SPPU Certificate",
+            imgUrl: CertImg6
         },
     ]
     return (
