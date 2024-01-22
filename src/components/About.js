@@ -20,7 +20,7 @@ export const About = () => {
             
           <div class="details-container">
             <img src={expImg} alt="Experience icon" class="icon"/>
-            <h3>ITVedant Data Science Course</h3>
+            <h3>Data Science Course</h3>
             <p>1+ years <br/>Data Scientist/Data Analyst</p>
           </div>
 
