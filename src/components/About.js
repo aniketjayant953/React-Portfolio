@@ -34,7 +34,7 @@ export const About = () => {
 
         <div class="text-container">
           <p>
-          Hi, my name is Aniket and I am a Data Science/Analyst Aspirant. I hold a Bachelor's Degree in Mechanical Engineering and Course certification in Business Data Science/Analytics.
+          Hi, my name is Aniket and I am a Data Science/Analyst Aspirant. I hold a Bachelor's Degree in Mechanical Engineering and Course certification in Data Science/Analytics.
 
 Since I was young, I have always enjoyed to solve puzzles. So that's how I look at big data sets, to me it is one big puzzle I want to solve. Finding patterns nobody else sees is the challenge to me. Before I started my journey in Data domain I had studied for a year as a Data Analyst/Scientist in Project Execution and Processing. Do you want to work together? Please reach out to me by e-mail.
           </p>
