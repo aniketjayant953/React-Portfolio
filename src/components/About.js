@@ -20,7 +20,7 @@ export const About = () => {
             
           <div class="details-container">
             <img src={expImg} alt="Experience icon" class="icon"/>
-            <h3>Self Experience</h3>
+            <h3>ITVedant Data Science Course</h3>
             <p>1+ years <br/>Data Scientist/Data Analyst</p>
           </div>
 
@@ -34,9 +34,9 @@ export const About = () => {
 
         <div class="text-container">
           <p>
-          Hi, my name is Aniket and I work remotely as a freelance data analyst. I hold a Bachelor's in Mechanical Engineering and Master's certification in Business Data Analytics.
+          Hi, my name is Aniket and I am a Data Science/Analyst Aspirant. I hold a Bachelor's Degree in Mechanical Engineering and Course certification in Business Data Science/Analytics.
 
-Since I was young, I have always enjoyed to solve puzzles. So that's how I look at big data sets, to me it is one big puzzle I want to solve. Finding patterns nobody else sees is the challenge to me. Before I started as a freelancer. I had Studied for a year as a data analyst in Project Execution and Processing. Do you want to work together? Please reach out to me by e-mail.
+Since I was young, I have always enjoyed to solve puzzles. So that's how I look at big data sets, to me it is one big puzzle I want to solve. Finding patterns nobody else sees is the challenge to me. Before I started my journey in Data domain I had studied for a year as a Data Analyst/Scientist in Project Execution and Processing. Do you want to work together? Please reach out to me by e-mail.
           </p>
         </div>
 
